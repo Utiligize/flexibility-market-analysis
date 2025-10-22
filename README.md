@@ -58,8 +58,8 @@ GOPACS (Grid Operators Platform for Congestion Solutions) flexibility market dat
 
 **Comparison**: NL is transmission-focused (TSO), GB is distribution-focused (DNO)
 - NL DSOs: 100 MWh/year
-- GB UKPN: 4,485 MWh/year
-- **GB is 45x more active** at distribution level
+- GB UKPN alone: 11,193 MWh/year (25% of GB market)
+- **UKPN is 112x larger; Full GB estimated ~450x larger** than NL DSOs
 
 [📁 See NL folder for complete analysis](./NL/)
 
@@ -204,8 +204,14 @@ python visualize_gopacs_market.py
 - **Declining trend** (peak 2021-2022, down 93% since)
 - **15-minute PTUs** (standard Dutch market structure)
 
-### The 45x Difference
-GB's distribution-level market is **45 times more active** than NL's distribution-level market, showing GB's leadership in DNO flexibility services.
+### GB's Massive Lead in Distribution Flexibility
+
+GB's distribution-level market is **vastly more developed** than NL's:
+- **UKPN alone** (25% of GB): 112x larger than all NL DSOs combined
+- **Full GB estimated**: ~450x larger than NL DSOs
+- NL DSOs activate only 100 MWh/year vs GB's ~45,000 MWh/year
+
+This shows GB's clear leadership in DNO-level flexibility services, while NL focuses on TSO transmission-level congestion.
 
 ## Data Licenses
 
