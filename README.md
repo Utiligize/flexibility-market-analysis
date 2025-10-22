@@ -2,6 +2,9 @@
 
 Comprehensive analysis of electricity flexibility market activations across different countries/regions.
 
+**Author**: Emil Mahler Larsen, CTO, Utiligize
+**Date**: October 2025
+
 ## Overview
 
 This project analyzes flexibility dispatch data from Distribution Network Operators (DNOs) and Transmission System Operators (TSOs) to understand:
@@ -90,7 +93,7 @@ uk-open-data/
 │   ├── DETAILED_FINDINGS.md     # Q&A on specific topics
 │   ├── CONTRACT_STRUCTURE_EXPLAINED.md
 │   ├── TENDER_STRUCTURE_EXPLAINED.md
-│   ├── LINKEDIN_POST_CORRECTIONS.md
+│   ├── POST_CORRECTIONS.md
 │   ├── fetch_flexibility_data.py
 │   ├── fetch_all_data.py        # Bypass 10k API limit
 │   ├── analyze_flexibility_market.py
@@ -100,7 +103,7 @@ uk-open-data/
 │   ├── create_square_graphs.py
 │   ├── requirements.txt
 │   ├── *.png                    # 10+ visualization outputs
-│   └── linkedin_squares/        # 10 SVG graphs (1000x1000px)
+│   └── square_graphs/          # 10 SVG graphs (1000x1000px)
 └── NL/                          # Netherlands analysis
     ├── README.md                # NL findings and comparison
     ├── fetch_gopacs_data.py
@@ -158,7 +161,7 @@ python visualize_flexibility_market.py
 python analyze_tender_success.py
 python analyze_peak_pricing.py
 
-# Or generate LinkedIn graphs (10 square SVGs)
+# Or generate publication graphs (10 square SVGs, 1000x1000px)
 python create_square_graphs.py
 ```
 
@@ -235,15 +238,16 @@ To add a new country/region:
 - [ENTSO-E Transparency Platform](https://transparency.entsoe.eu/)
 - [EU DSO Entity](https://www.edsoforsmartgrids.eu/)
 
-## Publications & LinkedIn
+## Publications & Outputs
 
 Analysis and visualizations ready for:
-- LinkedIn posts (10 square SVG graphs in GB/linkedin_squares/)
+- Social media posts (10 square SVG graphs in GB/square_graphs/)
 - Academic papers
 - Policy reports
 - Market intelligence briefings
+- Presentations and conferences
 
-Contact for collaboration or data sharing.
+Contact Emil Mahler Larsen (Utiligize) for collaboration or data sharing.
 
 ---
 
