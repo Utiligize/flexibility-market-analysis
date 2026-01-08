@@ -1,7 +1,7 @@
 # Requirements for UK Power Networks Flexibility Market Analysis
 
 # Data manipulation and analysis
-pandas>=1.5.0
+pandas>=2.3.3
 numpy>=1.23.0
 
 # Visualization
