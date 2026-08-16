@@ -2,7 +2,7 @@
 
 # Data manipulation and analysis
 pandas>=1.5.0
-numpy>=1.23.0
+numpy>=2.5.2
 
 # Visualization
 matplotlib>=3.6.0
