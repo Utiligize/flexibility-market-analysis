@@ -108,7 +108,7 @@ pip install -r requirements.txt
 
 ### Python Version
 
-Python 3.8 or higher recommended.
+Python 3.12 or higher required (numpy 2.5).
 
 ## Quick Start
 
