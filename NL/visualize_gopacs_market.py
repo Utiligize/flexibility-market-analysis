@@ -304,7 +304,7 @@ class GopacsMarketVisualizer:
         ax2 = axes[0, 1]
         operators = self.df['organisationName'].unique()
         box_data = [self.df[self.df['organisationName'] == op]['buyVolumeInMW'].values for op in operators]
-        bp = ax2.boxplot(box_data, labels=operators, patch_artist=True)
+        bp = ax2.boxplot(box_data, tick_labels=operators, patch_artist=True)
         for patch, color in zip(bp['boxes'], ['#003f5c', '#58508d', '#bc5090', '#ff6361']):
             patch.set_facecolor(color)
         ax2.set_ylabel('Volume (MW) - Log Scale', fontsize=11, fontweight='bold')
