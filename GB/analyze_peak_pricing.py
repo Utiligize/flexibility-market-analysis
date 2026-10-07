@@ -48,7 +48,7 @@ for i, (count, label) in enumerate(zip(tier_counts.values, tier_counts.index)):
 
 # Plot 2: Energy by price tier
 ax2 = fig.add_subplot(gs[0, 1])
-tier_energy = price_data.groupby('price_tier')['utilisation_mwh_req'].sum().sort_index()
+tier_energy = price_data.groupby('price_tier', observed=False)['utilisation_mwh_req'].sum().sort_index()
 ax2.barh(range(len(tier_energy)), tier_energy.values, color=colors_tier)
 ax2.set_yticks(range(len(tier_energy)))
 ax2.set_yticklabels(tier_energy.index)
@@ -59,7 +59,7 @@ ax2.grid(True, alpha=0.3, axis='x')
 
 # Plot 3: Cost by price tier
 ax3 = fig.add_subplot(gs[0, 2])
-tier_cost = price_data.groupby('price_tier')['total_cost'].sum().sort_index()
+tier_cost = price_data.groupby('price_tier', observed=False)['total_cost'].sum().sort_index()
 ax3.barh(range(len(tier_cost)), tier_cost.values, color=colors_tier)
 ax3.set_yticks(range(len(tier_cost)))
 ax3.set_yticklabels(tier_cost.index)
