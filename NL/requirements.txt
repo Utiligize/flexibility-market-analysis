@@ -1,11 +1,11 @@
 # Requirements for UK Power Networks Flexibility Market Analysis
 
 # Data manipulation and analysis
-pandas>=3.0.5
-numpy>=2.5.2
+pandas>=3.0.6
+numpy>=2.5.3
 
 # Visualization
-matplotlib>=3.11.1
+matplotlib>=3.11.2
 seaborn>=0.13.2
 
 # API requests
